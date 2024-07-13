@@ -25,10 +25,21 @@ provided by the company, and additional data go to a mock API. When logging in, 
 data put in form gets checked by the log in API and once successful, it provides an access
 token and refresh token to get the user authenticated. This token is stored in a local
 storage to keep the user authenticated.
-![ex-activa](https://github.com/user-attachments/assets/b2e8359e-2ee4-4d92-bc0b-670fdc568087)
-![ex-details-activa](https://github.com/user-attachments/assets/9b4ab7fd-b7ce-4f9d-afc6-824dfffb1b6f)
-![activa-splash](https://github.com/user-attachments/assets/ebfbb21d-02f4-4a9f-8ca5-b6e5d2f6a9e6)
-![plan-activa](https://github.com/user-attachments/assets/3492d8fc-9367-4ae5-b9f8-fd7fe038b4dc)
-![recipe-details-activa](https://github.com/user-attachments/assets/f5b8ae01-1cd6-48b1-8ff1-59b9d3f4f80d)![food-activa](https://github.com/user-attachments/assets/c0da2da4-bccd-4284-a354-b4db58f66e14)
-![recipes-activa](https://github.com/user-attachments/assets/a63639e2-9e34-40c0-bf50-d63314d53858)
+<img src="https://github.com/user-attachments/assets/ebfbb21d-02f4-4a9f-8ca5-b6e5d2f6a9e6" width="200">
+
+<img src="https://github.com/user-attachments/assets/0f322014-4cf4-44c8-a599-570cb68768e5" width="200">
+
+<img src="https://github.com/user-attachments/assets/b2e8359e-2ee4-4d92-bc0b-670fdc568087" width="200">
+
+<img src="https://github.com/user-attachments/assets/9b4ab7fd-b7ce-4f9d-afc6-824dfffb1b6f" width="200">
+
+<img src="https://github.com/user-attachments/assets/3492d8fc-9367-4ae5-b9f8-fd7fe038b4dc" width="200">
+
+<img src="https://github.com/user-attachments/assets/f5b8ae01-1cd6-48b1-8ff1-59b9d3f4f80d" width="200">
+
+<img src="https://github.com/user-attachments/assets/c0da2da4-bccd-4284-a354-b4db58f66e14" width="200"> 
+
+<img src="https://github.com/user-attachments/assets/a63639e2-9e34-40c0-bf50-d63314d53858" width="200">
+
+
 
