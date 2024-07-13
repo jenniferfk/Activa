@@ -1,79 +1,25 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
-# Getting Started
-
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
-
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# Activa
+Please note that this project is given by the bootcamp's academy that i was in. So the API links are in env files that are not posted here. The images I will provide below showcase the design of my application.
+## 1- Introduction:
+Activa is a sports/health related app. It lets the user explore exercises and food and see their
+information (exercise instructions, exercise target, food recipe, calories in each recipe...). The
+user also has access to sports and health news to stay updated on every topic related to them. The
+news in this app is global news because the API returns so, but the idea out of it would be sports/
+health news. Additionally, the user can log the food he consumed during his day and the calories
+will be added for the user to see.
+## 2- Features:
+- In Exercise Screen, the user can browse through exercises, either all of them or based on
+the category selected. Additionally, the user can search for exercise. Once an exercise is
+clicked, its instructions and targeting will show in a stack screen.
+- In Recipes Screen, the user selects the category he wants, and the recipes that are related
+to this category show, and once one is clicked, the user can see the information about that
+recipe: steps, ingredients, nutriments.
+- News Screen: the news is fetched from an API given by the company. For better app
+performance and for optimization, pagination has been implemented successfully. The
+token that fetches this news, is refreshed once expired, to avoid letting the user log in
+again to have authorization to see the news.
+- Log in and sign up: When signing up, the user’s email and password go to the API
+provided by the company, and additional data go to a mock API. When logging in, the
+data put in form gets checked by the log in API and once successful, it provides an access
+token and refresh token to get the user authenticated. This token is stored in a local
+storage to keep the user authenticated.
