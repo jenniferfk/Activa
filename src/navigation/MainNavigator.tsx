@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../redux/Reducers/rootreducer';
 import { setAccessToken } from '../redux/slices/authSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import ActivaAppNavigator from './ActivaAppNavigator';
 import LoginMainNavigator from './LoginNavigator';
-import { AppStyles } from '../assets/styles';
+import { AppStyles } from '../assets/Styles/LoadingContainerAppStyle';
 
 const MainNavigator = () => {
   const dispatch = useDispatch();

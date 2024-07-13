@@ -4,7 +4,7 @@ import foodTypes from '../assets/foodtypes';
 import { FoodType } from '../assets/foodtypes';
 import { useNavigation } from '@react-navigation/native';
 import { MainNavigatorRecipeStackProp } from '../navigation/MainNavigator.type';
-import { foodTypeStyle} from '../assets/styles';
+import { foodTypeStyle } from '../assets/Styles/FoodTyleStyle';
 
 interface props{
   isRecipesScreen: boolean;

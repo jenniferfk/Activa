@@ -1,4 +1,4 @@
-import { ActivityIndicator, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, Alert, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
 import React, { PropsWithChildren, useEffect, useState } from 'react'
 import { fetchRecipeData } from '../molecules/FetchRecipesData'
 import BackButton from '../assets/SvgIcons/BackButton'
@@ -76,6 +76,7 @@ const LogFood = ({ route }: PropsWithChildren<Props>) => {
         body,
       });
       if (response.ok) {
+        Alert.alert('Success', 'Food successfully added!');
       }
     } catch (error) {
     }

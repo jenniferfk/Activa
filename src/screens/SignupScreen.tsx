@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert, ScrollView, Pressable, ActivityIndicator, Platform } from 'react-native';
 import Config from 'react-native-config';
-import { SignUpStyle,windowWidth } from '../assets/styles';
+import {windowWidth } from '../assets/styles';
 import BackButton from '../assets/SvgIcons/BackButton';
 import { useNavigation } from '@react-navigation/native';
+import { SignUpStyle } from '../assets/Styles/SignUpStyle';
 
 const API_SIGNUP = Config.API_SIGNUP|| '';
 const MOCK_API_URL = Config.API_USERS|| '';

@@ -3,7 +3,8 @@ import React, { PropsWithChildren } from 'react'
 import { RouteProp, useNavigation } from '@react-navigation/native';
 import { MainNavigatorNewsStackList } from '../navigation/MainNavigator.type';
 import BackButton from '../assets/SvgIcons/BackButton';
-import { NewsDetailsStyle, windowWidth } from '../assets/styles';
+import { windowWidth } from '../assets/styles';
+import { NewsDetailsStyle } from '../assets/Styles/NewsDeatilsStyle';
 
 type NewsDetailsScreenRouteProp = RouteProp<MainNavigatorNewsStackList, 'NewsDetail'>;
 

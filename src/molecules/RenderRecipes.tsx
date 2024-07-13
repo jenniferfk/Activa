@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigation } from '@react-navigation/native';
 import { MainNavigatorRecipeStackProp } from '../navigation/MainNavigator.type';
 import { Recipe } from '../assets/interfaces';
-import { renderrecipesStyle } from '../assets/styles';
+import { renderrecipesStyle } from '../assets/Styles/RenderRecipesStyle';
 
 interface RenderRecipesProps {
     recipe: Recipe;

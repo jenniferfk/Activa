@@ -8,7 +8,7 @@ import Config from 'react-native-config';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import DidYouKnow from '../molecules/DidYouKnow';
 import LoginForm from '../molecules/LoginForm';
-import { LoginScreenStyle} from '../assets/styles';
+import { LoginScreenStyle } from '../assets/Styles/LoginScreenStyle';
 const API_LOGIN = Config.API_LOGIN || '';
 
 const LoginScreen = () => {

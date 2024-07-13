@@ -7,8 +7,9 @@ import { setAccessToken } from '../redux/slices/authSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import RenderNews from '../molecules/RenderNews';
 import Config from 'react-native-config';
-import { AppStyles, NavStyles, appRegularFont } from '../assets/styles';
+import {  NavStyles } from '../assets/styles';
 import { Post } from '../assets/interfaces';
+import { AppStyles } from '../assets/Styles/LoadingContainerAppStyle';
 
 const API_POSTS = Config.API_POSTS || '';
 const API_REFRESHTOKEN = Config.API_REFRESHTOKEN || '';

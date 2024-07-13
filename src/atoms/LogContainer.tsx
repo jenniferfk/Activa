@@ -1,6 +1,6 @@
 import { Pressable, Text, View } from 'react-native'
 import React from 'react'
-import { LogContainerStyle } from '../assets/styles';
+import { LogContainerStyle } from '../assets/Styles/LogContainerStyle';
 import { Swipeable } from 'react-native-gesture-handler';
 
 interface props {

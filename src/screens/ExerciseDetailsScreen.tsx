@@ -5,7 +5,8 @@ import { MainNavigatorStackList } from '../navigation/MainNavigator.type';
 import { fetchExerciseData } from '../molecules/FetchExercisesData';
 import BackButton from '../assets/SvgIcons/BackButton';
 import { Exercise } from '../assets/interfaces';
-import { ExDetailsStyle, windowWidth } from '../assets/styles';
+import { windowWidth } from '../assets/styles';
+import { ExDetailsStyle } from '../assets/Styles/ExStyleDetails';
 
 type ExercisesDetailsScreenRouteProp = RouteProp<MainNavigatorStackList, 'ExercisesDetailsScreen'>;
 

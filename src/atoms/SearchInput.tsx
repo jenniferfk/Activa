@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInput } from 'react-native';
-import { SearchInputStyle } from '../assets/styles';
+import { SearchInputStyle } from '../assets/Styles/SearchInputStyle';
 
 interface SearchInputProps {
     value:string;

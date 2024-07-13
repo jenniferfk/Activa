@@ -8,7 +8,8 @@ import ClockIcon from '../assets/SvgIcons/ClockIcon';
 import AddedBy from '../assets/SvgIcons/AddedBy';
 import CaloriesIcon from '../assets/SvgIcons/CaloriesIcon';
 import { Recipe } from '../assets/interfaces';
-import { RecipeDetailsStyle, windowWidth } from '../assets/styles';
+import { windowWidth } from '../assets/styles';
+import { RecipeDetailsStyle } from '../assets/Styles/RecipeDetailsStyle';
 
 type RecipeDetailsScreenRouteProp = RouteProp<MainNavigatorRecipeStackList, 'RecipeDetailsScreen'>;
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Pressable, FlatList, Text } from 'react-native';
-import { ExCategoriesStyle} from '../assets/styles';
+import { ExCategoriesStyle } from '../assets/Styles/CategoriesExFlatlistStyle';
 
 interface CategoriesExFlatlistProps {
     onSelect: (category: string) => void;

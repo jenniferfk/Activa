@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigation } from '@react-navigation/native';
 import { MainNavigatorNewsStackProp } from '../navigation/MainNavigator.type';
 import { Post } from '../assets/interfaces';
-import { rendernewsStyle } from '../assets/styles';
+import { rendernewsStyle } from '../assets/Styles/RenderNewsStyle';
 
   interface PostProps{
     postData: Post[];

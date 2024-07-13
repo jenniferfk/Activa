@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import LogContainer from '../atoms/LogContainer';
 import { useNavigation } from '@react-navigation/native';
 import { MainNavigatorLogsStackProp } from '../navigation/MainNavigator.type';
-import {  daylogsStyle } from '../assets/styles';
+import { daylogsStyle } from '../assets/Styles/DayLogsStyle';
 
 interface Props {
   selectedDate: Date;

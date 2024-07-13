@@ -8,7 +8,7 @@ import Config from 'react-native-config';
 import DayLogs from '../organisms/DayLogs';
 import UserIcon from '../assets/SvgIcons/UserIcon';
 import { UserData } from '../assets/interfaces';
-import { LogsStyle} from '../assets/styles';
+import { LogsStyle } from '../assets/Styles/LogsStyle';
 import { useFocusEffect } from '@react-navigation/native';
 
 interface loggedrecipes{

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Image, FlatList, ListRenderItem, Pressable } from 'react-native';
 import { MainNavigatorStackProp } from '../navigation/MainNavigator.type';
 import { Exercise } from '../assets/interfaces';
-import {ExListStyle } from '../assets/styles';
+import { ExListStyle } from '../assets/Styles/ExListStyle';
 
 interface ExercisesListProps {
     selectedCategory: string;

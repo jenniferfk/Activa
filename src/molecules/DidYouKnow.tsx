@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Animated } from 'react-native';
-import { didykStyle } from '../assets/styles';
+import { didykStyle } from '../assets/Styles/DiYouKnowContainerStyle';
 
 const DidYouKnow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
